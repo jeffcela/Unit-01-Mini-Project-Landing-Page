@@ -1,0 +1,133 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background: black;
+    border-bottom: 5px solid rgb(214, 214, 214);
+    text-align: right;
+    color: white;
+    padding: 15px 10px 10px 10px;
+}
+    
+.nav {
+    list-style-type: none;
+    font-size: 14px;
+    display: inline;
+    padding-inline: 10px;
+    
+}
+
+#Bio {
+    height: 400px;
+    float: left;
+    margin-right: 55px;
+    padding-top: 30px;
+    padding-left: 25px;
+
+}   
+
+#hi {
+    color: black;
+    font-size: 35px;
+    text-align: left; 
+    padding-top: 85px;
+}
+
+#about {
+    color: black;
+    font-size: 20px;
+    text-align: left; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+p {
+    color: black;
+    text-align: left;
+    line-height: 20px;
+}
+
+.Contact {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    position: initial;
+    padding-left: 200px;
+}
+
+/* Style the form - display items horizontally */
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  /* Add some margins for each label */
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  /* Style the input fields */
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  .form-inline button {
+    padding: 10px 20px;
+    background-color: black;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 5px; 
+  }
+  
+  .form-inline button:hover {
+    background-color: grey;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+  
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .rule {
+    margin: auto;
+    border-top: 1px solid grey;
+    width: 75%;
+    margin-top: 150px;
+  }
+
+  #quote{
+      padding-top: 20px;
+      text-align: center;
+
+  }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: black;
+    border-top: 5px solid rgb(214, 214, 214);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
